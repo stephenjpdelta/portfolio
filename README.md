@@ -17,13 +17,10 @@ Detailed documentation is provided in the README within each folder.
 1. **Data cleaning**
    - Data wrangling and preparation using Python
 
-2. **Virtual Magic 8-Ball**
-   - Simple interactive program demonstrating control flow and randomness
-
-3. **Brute-force regression**
+2. **Brute-force regression**
    - Exploring regression approaches through iterative model testing
 
-4. **Multiple Correspondence Analysis (MCA)**
+3. **Multiple Correspondence Analysis (MCA)**
    - Exploratory analysis of Airbnb listings using categorical data techniques
 
 📁 Folder: `/python`
