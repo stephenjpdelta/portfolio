@@ -28,10 +28,13 @@ This project demonstrates the use of Microsoft Excel for data cleaning, analysis
 
 ### Tools & Techniques
 
-- Excel formulas (e.g. IF, VLOOKUP/XLOOKUP, COUNTIF, SUMIFS)
 - Pivot tables
+- Advanced Filtering
 - Conditional formatting
+- Excel formulas (e.g. IF, VLOOKUP/XLOOKUP, COUNTIF, SUMIFS)
 - Structured worksheets for repeatable analysis
+- Dashboard Refresh Macro
+- Slicers
 
 
 ---
@@ -41,4 +44,3 @@ This project demonstrates the use of Microsoft Excel for data cleaning, analysis
 ### Purpose
 
 The project highlights practical Excel skills commonly required in data administration and analyst roles, with an emphasis on accuracy, clarity, and usability.
-

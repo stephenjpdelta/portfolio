@@ -4,7 +4,7 @@
 This project focuses on analysing polling data related to the
 **American Health Care Act (AHCA)** using SQL.
 The analysis was carried out using **SQLite**, with queries executed via
-**DB Browser for SQLite**.
+**DB Browser**.
 
 The project demonstrates the use of SQL for data exploration,
 aggregation, and metric calculation, independent of BI or reporting tools.
@@ -12,7 +12,7 @@ aggregation, and metric calculation, independent of BI or reporting tools.
 ---
 
 ### Data Source
-The dataset used is the *FiveThirtyEight AHCA Polls* dataset, sourced via Kaggle:
+The dataset used is the *FiveThirtyEight American Healthcare Act (AHCA) Polls* dataset, sourced via Kaggle:
 
 https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-ahca-polls-dataset
 
@@ -49,7 +49,6 @@ or BI tools.
 ### Tools Used
 - SQLite
 - DB Browser for SQLite
-- SQL
 
 ---
 

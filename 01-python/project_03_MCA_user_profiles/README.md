@@ -16,10 +16,10 @@ It demonstrates a complete workflow for:
 
 
 
-- Cleaning and preprocessing categorical survey-style data
+- Cleaning and pre-processing categorical survey-style data
 - Engineering new variables (BMI groups, age groups)
 - Converting categories to a binary indicator matrix
-- Performing MCA to extract interpretable behavioural dimensions
+- Applying MCA to extract interpretable behavioural dimensions
 - Visualising relationships between consumer attributes
 - Segmenting users via K-Means clustering
 - Communicating insights from complex categorical structures
@@ -77,7 +77,7 @@ Because the dataset is under **CC0**, both the cleaned data and derived outputs 
 - `ambience`
 - `transport`
 - `marital_status`
-- `hijos` (children)
+- `children`
 - `interest`
 - `personality`
 - `religion`
@@ -90,8 +90,8 @@ Because the dataset is under **CC0**, both the cleaned data and derived outputs 
 
 
 
-- BMI category (underweight → obesity class III)
-- Age decade (1930s → 2020s)
+- BMI category
+- Age decade (1930s to 2020s)
 
 
 

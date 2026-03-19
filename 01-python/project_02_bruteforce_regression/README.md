@@ -12,7 +12,7 @@ y = mx + b
 
 
 
-for a set of 2D data points that you provide.
+for any set of 2D coordinates in the range -100 to 100.
 
 
 

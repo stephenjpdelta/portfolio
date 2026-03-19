@@ -14,13 +14,9 @@ The projects range from practical data-focused analysis to smaller learning exer
   - Includes handling missing values, restructuring data, and validation
   - Implemented using Jupyter notebooks
 
-- **Magic 8 Ball**
-  - A small Python program simulating a Magic 8 Ball
-  - Demonstrates control flow, randomisation, and basic user interaction
-
 - **Brute Force Regression**
   - Explores regression concepts by brute-forcing model parameters
-  - Used as a learning exercise to understand optimisation and model behaviour
+  - Provides insight into optimisation and model behaviour
 
 - **MCA Restaurant User Profiles**
   - Analysis of restaurant user profiles using Multiple Correspondence Analysis (MCA)

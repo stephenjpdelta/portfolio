@@ -1,8 +1,7 @@
 ## AHCA Polling Data – Power BI Dashboard
 
 ### Overview
-This project demonstrates an end-to-end analytics workflow using public polling data related to the **American Health Care Act (AHCA)**.  The workflow covers raw CSV ingestion, SQL-based preparation, and a two-page
-interactive Power BI dashboard.
+This project demonstrates an end-to-end analytics workflow using public polling data related to the **American Health Care Act (AHCA)**.  The workflow covers raw CSV ingestion, SQL-based preparation, and a two-page interactive Power BI dashboard.
 
 The dashboard provides an overview of polling activity and public sentiment towards
 the AHCA, with the ability to explore trends over time and compare results across
@@ -29,7 +28,7 @@ Fields include:
 - **Text** – Survey question asked in the poll
 - **URL** – Source link for the individual poll
 
-Net favour is calculated as **Favor minus Oppose**.
+Net favour is a DAX measure calculated as **Favor minus Oppose**
 
 ---
 
