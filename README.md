@@ -28,15 +28,13 @@ Detailed documentation is provided in the README within each folder.
 
 4. **Simple linear regression**
 
-   * Built using scikit-learn
-   * Predicts a target variable from a single feature
+   * Predicts a target variable from a single feature using sci-kitlearn
    * Includes model training, evaluation (MAE, MSE, R²), and visualisation
    * Demonstrates prediction on new data
 
 5. **Multiple linear regression**
 
    * Predicts property tax rates using multiple socio-economic variables
-   * Features include crime rate, pollution, housing characteristics, and accessibility
    * Includes model evaluation, coefficient analysis, and performance visualisation
    * Demonstrates real-world multi-variable prediction
 

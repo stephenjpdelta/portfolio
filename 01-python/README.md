@@ -24,14 +24,14 @@ The projects range from practical data-focused analysis to regression modelling 
   * Analysis of restaurant user profiles using Multiple Correspondence Analysis (MCA)
   * Focuses on categorical data exploration and pattern identification
 
-* **Project 04 — Simple Linear Regression**
+* **Simple Linear Regression**
 
   * Implements a linear regression model using scikit-learn
   * Predicts a target variable using a single feature
   * Includes data splitting, model training, evaluation (MAE, MSE, R²), and visualisation
   * Demonstrates how to generate predictions for new data
 
-* **Project 05 — Multiple Linear Regression**
+* **Multiple Linear Regression**
 
   * Extends regression to multiple input features using scikit-learn
   * Predicts property tax rates (`TAX`) using variables such as crime rate, pollution, housing characteristics, and accessibility

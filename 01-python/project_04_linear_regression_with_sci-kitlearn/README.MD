@@ -1,8 +1,8 @@
-\# Simple Linear Regression (Scikit-Learn)
+# Simple Linear Regression (Scikit-Learn)
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 
 
@@ -10,7 +10,7 @@ This project demonstrates a simple linear regression model using Python and scik
 
 
 
-\## 🎯 Objective
+## 🎯 Objective
 
 
 
@@ -18,23 +18,23 @@ Predict student exam scores based on the number of hours studied.
 
 
 
-\## 🧰 Tools \& Libraries
+## 🧰 Tools & Libraries
 
 
 
-\* Python
+* Python
 
-\* pandas
+* pandas
 
-\* numpy
+* numpy
 
-\* scikit-learn
+* scikit-learn
 
-\* matplotlib
+* matplotlib
 
 
 
-\## 📊 Dataset
+## 📊 Dataset
 
 
 
@@ -42,43 +42,43 @@ The dataset contains:
 
 
 
-\* \*\*Hours\*\* — number of hours studied
+* **Hours** — number of hours studied
 
-\* \*\*Score\*\* — exam score
-
-
-
-\## ⚙️ Methodology
+* **Score** — exam score
 
 
 
-1\. Load and explore the dataset
-
-2\. Define features (X) and target (y)
-
-3\. Split data into training and testing sets
-
-4\. Train a Linear Regression model
-
-5\. Evaluate performance using metrics
-
-6\. Visualise results
+## ⚙️ Methodology
 
 
 
-\## 📈 Model Performance
+1. Load and explore the dataset
+
+2. Define features (X) and target (y)
+
+3. Split data into training and testing sets
+
+4. Train a Linear Regression model
+
+5. Evaluate performance using metrics
+
+6. Visualise results
 
 
 
-\* Mean Absolute Error (MAE): XX
-
-\* Mean Squared Error (MSE): XX
-
-\* R² Score: XX
+## 📈 Model Performance
 
 
 
-\## 📉 Visualisation
+* Mean Absolute Error (MAE): XX
+
+* Mean Squared Error (MSE): XX
+
+* R² Score: XX
+
+
+
+## 📉 Visualisation
 
 
 
@@ -86,13 +86,13 @@ The model is visualised using:
 
 
 
-\* Scatter plot of actual data
+* Scatter plot of actual data
 
-\* Regression line showing predicted relationship
+* Regression line showing predicted relationship
 
 
 
-\## 🔮 Prediction Example
+## 🔮 Prediction Example
 
 
 
@@ -102,15 +102,15 @@ The model can predict a student’s score based on study hours:
 
 ```python
 
-new\_value = pd.DataFrame({'Hours': \[6]})
+new_value = pd.DataFrame({'Hours': [6]})
 
-prediction = model.predict(new\_value)
+prediction = model.predict(new_value)
 
 ```
 
 
 
-\## 🚀 How to Run
+## 🚀 How to Run
 
 
 
@@ -124,7 +124,7 @@ jupyter notebook
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -132,7 +132,7 @@ jupyter notebook
 
 simple-linear-regression/
 
-├── linear\_regression.ipynb
+├── linear_regression.ipynb
 
 ├── data.csv
 
@@ -142,16 +142,16 @@ simple-linear-regression/
 
 
 
-\## 💡 Key Learnings
+## 💡 Key Learnings
 
 
 
-\* Understanding linear relationships
+* Understanding linear relationships
 
-\* Model training and evaluation
+* Model training and evaluation
 
-\* Data splitting and prediction
+* Data splitting and prediction
 
-\* Visualising regression results
+* Visualising regression results
 
 
