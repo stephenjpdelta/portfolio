@@ -26,14 +26,14 @@ Detailed documentation is provided in the README within each folder.
 
    * Exploratory analysis of Airbnb listings using categorical data techniques
 
-4. **Simple linear regression (Project 04)**
+4. **Simple linear regression**
 
    * Built using scikit-learn
    * Predicts a target variable from a single feature
    * Includes model training, evaluation (MAE, MSE, R²), and visualisation
    * Demonstrates prediction on new data
 
-5. **Multiple linear regression (Project 05)**
+5. **Multiple linear regression**
 
    * Predicts property tax rates using multiple socio-economic variables
    * Features include crime rate, pollution, housing characteristics, and accessibility
