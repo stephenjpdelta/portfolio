@@ -46,6 +46,10 @@ Detailed documentation is provided in the README within each folder.
 
    * Tests for difference in Loan Amount across Home Ownership and Education
 
+8. **Time Series Analysis of IBM Stock (2013-2018)**
+
+   * Performs a univariate time series analysis on stock data, using historical daily prices
+
 📁 Folder: `/python`
 
 ---

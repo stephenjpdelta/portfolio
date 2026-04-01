@@ -54,6 +54,10 @@ The projects range from practical data-focused analysis to regression modelling 
   * Includes assumption testing (Shapiro–Wilk and Levene’s tests)
   * Applies Tukey’s HSD for post-hoc analysis of significant factors
 
+* **Time Series Analysis of IBM Stock (2013-2018)**
+
+  *This project performs a univariate time series analysis on stock data for IBM, using historical daily prices from 2013 to 2018
+
 ---
 
 Each project folder contains the relevant notebook(s), scripts, and data files, along with documentation where appropriate.
