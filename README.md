@@ -12,7 +12,7 @@ Detailed documentation is provided in the README within each folder.
 
 ### Python
 
-**Small analytical and programming projects**
+**Analytical and programming projects**
 
 1. **Data cleaning**
 
@@ -37,6 +37,14 @@ Detailed documentation is provided in the README within each folder.
    * Predicts property tax rates using multiple socio-economic variables
    * Includes model evaluation, coefficient analysis, and performance visualisation
    * Demonstrates real-world multi-variable prediction
+
+6. **One-way ANOVA (TB prevalence)**
+
+   * Tests for regional differences in TB prevalence using one-way ANOVA
+
+7. **Two-way ANOVA (Loan Approval)**
+
+   * Tests for difference in Loan Amount across Home Ownership and Education
 
 📁 Folder: `/python`
 
