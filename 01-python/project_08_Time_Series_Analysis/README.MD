@@ -1,8 +1,8 @@
-\# 📈 Time Series Analysis of IBM Stock (2013–2018)
+📈 # Time Series Analysis of IBM Stock (2013–2018)
 
 
 
-\## 📌 Overview
+📌 ## Overview
 
 
 
@@ -26,7 +26,7 @@ Assess predictability in financial time series
 
 
 
-\## 📊 Dataset
+📊 ## Dataset
 
 
 
@@ -66,11 +66,11 @@ Such datasets are commonly used for financial analysis, trend evaluation, and fo
 
 
 
-\## 🎯 Methodology
+🎯 ## Methodology
 
 
 
-\###1. Data Preparation
+\### 1. Data Preparation
 
 
 
@@ -84,7 +84,7 @@ Handle missing values
 
 
 
-\###2. Variable Selection
+\### 2. Variable Selection
 
 
 
@@ -104,7 +104,7 @@ Less noisy than intraday values (open/high/low)
 
 
 
-\###3. Transformation
+\### 3. Transformation
 
 
 
@@ -240,7 +240,7 @@ Weak or absent volatility clustering
 
 
 
-\## 🔍 Key Findings
+🔍 ## Key Findings
 
 
 
@@ -254,7 +254,7 @@ The series behaves similarly to white noise
 
 
 
-\## 👉 This supports the concept of:
+👉 ## This supports the concept of:
 
 
 
@@ -262,7 +262,7 @@ Weak-form market efficiency, where past prices do not predict future returns
 
 
 
-\## 🛠️ Technologies Used
+🛠️ ## Technologies Used
 
 
 
@@ -278,7 +278,7 @@ statsmodels
 
 
 
-\## 📁 Project Structure
+📁 ## Project Structure
 
 
 
@@ -294,7 +294,7 @@ project/
 
 
 
-\## 🚀 How to Run
+🚀 ## How to Run
 
 
 
@@ -310,7 +310,7 @@ jupyter notebook
 
 
 
-\## 📚 Future Work
+📚 ## Future Work
 
 
 
@@ -321,4 +321,6 @@ Apply GARCH models for volatility modelling
 Extend analysis to multiple stocks
 
 Incorporate exogenous variables (macroeconomic data)
+
+
 
