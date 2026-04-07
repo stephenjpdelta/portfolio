@@ -1,240 +1,119 @@
-```md
+# 📈 Time Series Analysis of IBM Stock (2013–2018)
 
-\# 📈 Time Series Analysis of IBM Stock (2013–2018)
-
-
-
-\## 📌 Overview
-
-
+## 📌 Overview
 
 This project performs a univariate time series analysis on stock data for IBM, using historical daily prices from 2013 to 2018.
 
-
-
 The goal is to:
 
+- Explore price behaviour over time
+- Transform price data into returns
+- Test for stationarity
+- Analyse autocorrelation patterns
+- Assess predictability in financial time series
 
-
-\- Explore price behaviour over time
-
-\- Transform price data into returns
-
-\- Test for stationarity
-
-\- Analyse autocorrelation patterns
-
-\- Assess predictability in financial time series
-
-
-
-\## 📊 Dataset
-
-
+## 📊 Dataset
 
 The dataset used in this project is sourced from Kaggle:
 
-
-
 👉 https://www.kaggle.com/datasets/ameythakur20/stock-prices
 
-
-
-\## Dataset Description
-
-
+## Dataset Description
 
 The dataset contains historical daily stock data for multiple companies, including:
 
-
-
-\- `date` — trading date
-
-\- `open` — opening price
-
-\- `high` — highest price of the day
-
-\- `low` — lowest price of the day
-
-\- `close` — closing price
-
-\- `volume` — number of shares traded
-
-\- `Name` — stock ticker
-
-
+- `date` — trading date
+- `open` — opening price
+- `high` — highest price of the day
+- `low` — lowest price of the day
+- `close` — closing price
+- `volume` — number of shares traded
+- `Name` — stock ticker
 
 Such datasets are commonly used for financial analysis, trend evaluation, and forecasting models.
 
+## 🎯 Methodology
 
+### 1. Data Preparation
 
-\## 🎯 Methodology
+- Filter dataset for IBM stock
+- Parse and correctly format dates (DD/MM/YYYY)
+- Sort data chronologically
+- Handle missing values
 
-
-
-\### 1. Data Preparation
-
-
-
-\- Filter dataset for IBM stock
-
-\- Parse and correctly format dates (DD/MM/YYYY)
-
-\- Sort data chronologically
-
-\- Handle missing values
-
-
-
-\### 2. Variable Selection
-
-
+### 2. Variable Selection
 
 The analysis focuses on the closing price.
 
-
-
 Justification:
 
+- Represents the final consensus market price
+- Standard input for financial modelling
+- Less noisy than intraday values (open/high/low)
 
+### 3. Transformation
 
-\- Represents the final consensus market price
+- Applied log transformation to stabilise variance
+- Computed log returns:
 
-\- Standard input for financial modelling
+`r_t = log(P_t) - log(P_{t-1})`
 
-\- Less noisy than intraday values (open/high/low)
+### 4. Exploratory Analysis
 
+- Visualised price trends
+- Examined return behaviour
+- Compared variability across time
 
-
-\### 3. Transformation
-
-
-
-\- Applied log transformation to stabilise variance
-
-\- Computed log returns:
-
-
-
-`r\_t = log(P\_t) - log(P\_{t-1})`
-
-
-
-\### 4. Exploratory Analysis
-
-
-
-\- Visualised price trends
-
-\- Examined return behaviour
-
-\- Compared variability across time
-
-
-
-\### 5. Stationarity Testing
-
-
+### 5. Stationarity Testing
 
 Used the Augmented Dickey-Fuller (ADF) test:
 
+- Prices → non-stationary
+- Returns → stationary
 
+### 6. Autocorrelation Analysis
 
-\- Prices → non-stationary
-
-\- Returns → stationary
-
-
-
-\### 6. Autocorrelation Analysis
-
-
-
-\- ACF (Autocorrelation Function)
-
-\- PACF (Partial Autocorrelation Function)
-
-
+- ACF (Autocorrelation Function)
+- PACF (Partial Autocorrelation Function)
 
 Findings:
 
+- Minimal autocorrelation in returns
+- No strong evidence of predictable structure
 
+### 7. Volatility Analysis
 
-\- Minimal autocorrelation in returns
-
-\- No strong evidence of predictable structure
-
-
-
-\### 7. Volatility Analysis
-
-
-
-\- Analysed squared returns
-
-\- Tested for volatility clustering
-
-
+- Analysed squared returns
+- Tested for volatility clustering
 
 Result:
 
+- Weak or absent volatility clustering
 
+## 🔍 Key Findings
 
-\- Weak or absent volatility clustering
+- Stock prices exhibit non-stationary behaviour with trends and fluctuations
+- Log returns are approximately stationary
+- Returns show little to no autocorrelation
+- The series behaves similarly to white noise
 
-
-
-\## 🔍 Key Findings
-
-
-
-\- Stock prices exhibit non-stationary behaviour with trends and fluctuations
-
-\- Log returns are approximately stationary
-
-\- Returns show little to no autocorrelation
-
-\- The series behaves similarly to white noise
-
-
-
-\## 👉 This supports the concept of:
-
-
+## 👉 This supports the concept of:
 
 Weak-form market efficiency, where past prices do not predict future returns.
 
+## 🛠️ Technologies Used
 
+- Python
+- pandas
+- numpy
+- matplotlib
+- statsmodels
 
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- pandas
-
-\- numpy
-
-\- matplotlib
-
-\- statsmodels
-
-
-
-\## 📁 Project Structure
-
-
+## 📁 Project Structure
 
 ```text
-
 project/
-
 │
-
-├── all\_stocks\_5yr.csv
-
-├── time\_series\_analysis.ipynb
-
+├── all_stocks_5yr.csv
+├── time_series_analysis.ipynb
 └── README.md
-
