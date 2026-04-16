@@ -58,6 +58,10 @@ The projects range from practical data-focused analysis to regression modelling 
 
   *This project performs a univariate time series analysis on stock data for IBM, using historical daily prices from 2013 to 2018
 
+* **End-to-end Business Case: Exploratory Data Analysis (EDA) of eCommerce Sales Data**
+
+  *This project performs EDA on eCommerce sales data
+
 ---
 
 Each project folder contains the relevant notebook(s), scripts, and data files, along with documentation where appropriate.

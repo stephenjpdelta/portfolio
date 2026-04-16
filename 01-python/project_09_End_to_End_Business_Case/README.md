@@ -19,17 +19,11 @@ The goal of this project is to assess business performance and identify the main
 
 
 - How sales and profit change over time
-
 - Which product categories and products drive the business
-
 - Which customer segments and regions are most valuable
-
 - Whether discounting improves or damages performance
-
 - How shipping costs affect profitability
-
 - Whether payment methods reveal useful behavioural patterns
-
 
 
 The final objective is to turn raw transactional data into practical business recommendations.
@@ -75,57 +69,33 @@ The dataset contains **2,000 ecommerce orders** from **2 January 2023 to 31 Dece
 ### Key fields include:
 
 - Order ID
-
 - Order Date
-
 - Customer Name
-
 - Customer Segment
-
 - Country
-
 - Region
-
 - Product Category
-
 - Product Name
-
 - Quantity
-
 - Unit Price
-
 - Discount Percent
-
 - Total Sales
-
 - Shipping Cost
-
 - Profit
-
 - Payment Method
-
 
 
 ### Derived fields created in Python:
 
 - Year
-
 - Month
-
 - Month Name
-
 - Quarter
-
 - Profit Margin
-
 - Shipping Cost Ratio
-
 - Expected Total Sales
-
 - Recorded Total Sales
-
 - Sales Match flag
-
 
 
 ---
@@ -141,21 +111,13 @@ The dataset contains **2,000 ecommerce orders** from **2 January 2023 to 31 Dece
 Used for:
 
 - Data loading and validation
-
 - Data type checks and missing value analysis
-
 - Feature engineering
-
 - Summary statistics
-
 - Time series analysis
-
 - Category, product, customer, region, discount, and shipping analysis
-
 - Correlation analysis
-
 - Exporting summary tables
-
 
 
 ### Power BI
@@ -163,17 +125,11 @@ Used for:
 Used for:
 
 - KPI cards
-
 - Time trend charts
-
 - Regional and country-level visualisations
-
 - Category and segment comparisons
-
 - Profitability analysis dashboards
-
 - Business presentation and storytelling
-
 
 
 ---
