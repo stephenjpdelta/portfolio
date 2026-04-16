@@ -16,39 +16,20 @@ Detailed documentation is provided in the README within each folder.
 
 1. **Data cleaning**
 
-   * Data wrangling and preparation using Python
-
 2. **Brute-force regression**
-
-   * Exploring regression approaches through iterative model testing
 
 3. **Multiple Correspondence Analysis (MCA)**
 
-   * Exploratory analysis of Airbnb listings using categorical data techniques
-
 4. **Simple linear regression**
-
-   * Predicts a target variable from a single feature using sci-kitlearn
-   * Includes model training, evaluation (MAE, MSE, R²), and visualisation
-   * Demonstrates prediction on new data
 
 5. **Multiple linear regression**
 
-   * Predicts property tax rates using multiple socio-economic variables
-   * Includes model evaluation, coefficient analysis, and performance visualisation
-   * Demonstrates real-world multi-variable prediction
-
 6. **One-way ANOVA (TB prevalence)**
-
-   * Tests for regional differences in TB prevalence using one-way ANOVA
 
 7. **Two-way ANOVA (Loan Approval)**
 
-   * Tests for difference in Loan Amount across Home Ownership and Education
-
 8. **Time Series Analysis of IBM Stock (2013-2018)**
 
-   * Performs a univariate time series analysis on stock data, using historical daily prices
 
 📁 Folder: `/01-python`
 
@@ -56,11 +37,9 @@ Detailed documentation is provided in the README within each folder.
 
 ### SQL
 
-**Querying and analysing AHCA polling data**
+1. **Querying and analysing AHCA polling data**
 
-* Writing and running SQL queries against polling datasets
-* Filtering, aggregating, and joining data
-* Preparing data for downstream analysis and visualisation
+2. **Customer Order Analysis: SQL Joins Using a Small Relational Database
 
 📁 Folder: `/02-sql`
 
