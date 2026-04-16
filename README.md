@@ -91,6 +91,14 @@ Detailed documentation is provided in the README within each folder.
 
 ---
 
+### End-to-end Business Case
+
+**Data inspection, Exploratory Data Analysis (EDA), Visuals and Reporting
+
+📁 Folder: '/05-End-to-end-Business-Case'
+
+---
+
 ## Skills Demonstrated
 
 * Data cleaning and preparation
@@ -100,13 +108,6 @@ Detailed documentation is provided in the README within each folder.
 * Dashboarding and data visualisation
 * Clear, reproducible documentation
 
----
-
-### End-to-end Business Case
-
-**Data inspection, Exploratory Data Analysis (EDA), Visuals and Reporting
-
-📁 Folder: '/05-End-to-end-Business-Case'
 
 ## How to Use This Repository
 
