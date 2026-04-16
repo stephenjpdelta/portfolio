@@ -50,7 +50,7 @@ Detailed documentation is provided in the README within each folder.
 
    * Performs a univariate time series analysis on stock data, using historical daily prices
 
-📁 Folder: `/python`
+📁 Folder: `/01-python`
 
 ---
 
@@ -62,7 +62,7 @@ Detailed documentation is provided in the README within each folder.
 * Filtering, aggregating, and joining data
 * Preparing data for downstream analysis and visualisation
 
-📁 Folder: `/sql`
+📁 Folder: `/02-sql`
 
 ---
 
@@ -74,7 +74,7 @@ Detailed documentation is provided in the README within each folder.
 * Data sourced from SQL Server
 * Focus on clear communication of trends and insights
 
-📁 Folder: `/power-bi`
+📁 Folder: `/03-power-bi`
 
 ---
 
@@ -87,7 +87,7 @@ Detailed documentation is provided in the README within each folder.
 * Reporting enhancements using conditional formatting
 * Basic automation using recorded Excel macros
 
-📁 Folder: `/excel`
+📁 Folder: `/04-excel`
 
 ---
 
@@ -101,6 +101,12 @@ Detailed documentation is provided in the README within each folder.
 * Clear, reproducible documentation
 
 ---
+
+### End-to-end Business Case
+
+**Data inspection, Exploratory Data Analysis (EDA), Visuals and Reporting
+
+📁 Folder: '/05-End-to-end-Business-Case'
 
 ## How to Use This Repository
 
