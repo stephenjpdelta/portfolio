@@ -1,9 +1,0 @@
-Follow up regression project using numpy
-
-K-means clusters
-EigenValues
-Explained Inertia
-
-Check the heatmap covers more than just personality
-
-Create a project on SQL joins
