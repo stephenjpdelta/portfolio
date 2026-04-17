@@ -149,19 +149,6 @@ Additional Python-based analytical projects covering statistical modelling techn
 
 ---
 
-# Repository Structure
-
-Each project folder contains:
-
-- Project overview  
-- Data source information  
-- Methodology  
-- Code / notebooks  
-- Visual outputs  
-- Key findings
-
----
-
 # About This Portfolio
 
 This repository was created to showcase practical analytics capability for roles in:
@@ -170,9 +157,3 @@ This repository was created to showcase practical analytics capability for roles
 - BI Analyst  
 - Reporting Analyst  
 - Junior Data Scientist
-
----
-
-# Contact
-
-Feel free to connect or reach out regarding opportunities, collaboration, or feedback.
