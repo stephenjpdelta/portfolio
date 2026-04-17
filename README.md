@@ -28,7 +28,7 @@ Detailed documentation is provided in the README within each folder.
 
 7. **Two-way ANOVA (Loan Approval)**
 
-8. **Time Series Analysis of IBM Stock (2013-2018)**
+8. **Time Series Analysis**
 
 
 📁 Folder: `/01-python`
@@ -39,7 +39,7 @@ Detailed documentation is provided in the README within each folder.
 
 1. **Querying and analysing AHCA polling data**
 
-2. **Customer Order Analysis: SQL Joins Using a Small Relational Database
+2. **Customer Order Analysis: SQL Joins Using a Small Relational Database**
 
 📁 Folder: `/02-sql`
 
@@ -72,7 +72,7 @@ Detailed documentation is provided in the README within each folder.
 
 ### End-to-end Business Case
 
-**Data inspection, Exploratory Data Analysis (EDA), Visuals and Reporting
+**Data inspection, Exploratory Data Analysis (EDA), Visuals and Reporting**
 
 📁 Folder: '/05-End-to-end-Business-Case'
 
