@@ -90,8 +90,6 @@ Practical business reporting project using Excel tools for cleaning, analysis, a
 
 ## 06_End_To_End_Business_Case
 
-**End-to-End Analytics Case Study**
-
 A complete analytics workflow from raw data to business recommendations.
 
 **Project stages:**
@@ -105,29 +103,14 @@ A complete analytics workflow from raw data to business recommendations.
 
 **Skills demonstrated:**
 
-- Full project ownership  
-- Problem solving  
-- Stakeholder-style reporting  
+- Full project ownership
+- Problem solving
+- Stakeholder-style reporting
 - Multi-tool workflow
 
 ---
 
-## 07_Multiple_Correspondence_Analysis
-
-**Advanced Statistical Segmentation**
-
-Categorical data analysis project using Multiple Correspondence Analysis (MCA) to identify relationships and clusters.
-
-**Skills demonstrated:**
-
-- Dimensionality reduction  
-- Segment discovery  
-- Categorical variable analysis  
-- Statistical interpretation
-
----
-
-# Statistical Methods
+# 07_Statistical_Methods
 
 Additional Python-based analytical projects covering statistical modelling techniques such as:
 
@@ -136,6 +119,7 @@ Additional Python-based analytical projects covering statistical modelling techn
 - ANOVA  
 - Hypothesis testing  
 - Experimental analysis
+- Multiple Correspondence Analysis
 
 ---
 
