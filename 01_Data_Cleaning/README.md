@@ -24,9 +24,8 @@ The pipeline produces:
 
 
 
-* an **audit / workings dataset** (with intermediate and derived columns)
-
-* a **final, analysis-ready dataset** with a clean, minimal schema
+- an **audit / workings dataset** (with intermediate and derived columns)
+- a **final, analysis-ready dataset** with a clean, minimal schema
 
 
 
@@ -62,9 +61,9 @@ It combines:
 
 
 
-* `ftfy`
-* encoding round-trips (`cp1252`, `latin-1`)
-* Unicode normalisation (NFC)
+- `ftfy`
+- encoding round-trips (`cp1252`, `latin-1`)
+- Unicode normalisation (NFC)
 
 
 
@@ -72,9 +71,9 @@ Quality checks include:
 
 
 
-* counts of rows changed
-* detection of remaining suspicious strings
-* side-by-side before/after examples
+- counts of rows changed
+- detection of remaining suspicious strings
+- side-by-side before/after examples
 
 
 
@@ -88,10 +87,10 @@ Several columns are normalised to appropriate types:
 
 
 
-* dates parsed safely with coercion (`host_since`)
-* boolean-like fields mapped to a true boolean dtype
-* percentage strings (e.g. `"95%"`) converted to numeric proportions (`0.95`)
-* categorical fields explicitly typed
+- dates parsed safely with coercion (`host_since`)
+- boolean-like fields mapped to a true boolean dtype
+- percentage strings (e.g. `"95%"`) converted to numeric proportions (`0.95`)
+- categorical fields explicitly typed
 
 
 
@@ -105,9 +104,9 @@ Missing data is handled using transparent, domain-aware rules:
 
 
 
-* `bedrooms` imputed using **group-wise medians** by property type
-* review score fields filled consistently
-* derived indicator fields added (e.g. `has_reviews`)
+- `bedrooms` imputed using **group-wise medians** by property type
+- review score fields filled consistently
+- derived indicator fields added (e.g. `has_reviews`)
 
 
 
@@ -121,9 +120,9 @@ Structured features are derived from semi-structured text:
 
 
 
-* amenities parsed into `amenities_count`
-* boolean flags derived (e.g. `has_wifi`)
-* raw and cleaned amenities retained in the audit output
+- amenities parsed into `amenities_count`
+- boolean flags derived (e.g. `has_wifi`)
+- raw and cleaned amenities retained in the audit output
 
 
 
@@ -141,10 +140,10 @@ This includes:
 
 
 
-* rule-level logging of **how many rows each transformation affects**
-* visual checks of missingness before and after cleaning
-* side-by-side examples of edited text fields
-* detection of duplicate column names and identical-content columns
+- rule-level logging of **how many rows each transformation affects**
+- visual checks of missingness before and after cleaning
+- side-by-side examples of edited text fields
+- detection of duplicate column names and identical-content columns
 
 
 
@@ -192,14 +191,14 @@ Intermediate working columns are removed.
 
 
 
-* Data cleaning and preprocessing in Python
-* Handling real-world text encoding issues (UTF-8 / mojibake)
-* Robust type conversion and validation
-* Missing-data strategies grounded in domain logic
-* Feature engineering for downstream analysis
-* Built-in QA and auditability for data pipelines
-* Clear separation of working vs final outputs
-* Reproducible analysis using Jupyter Notebooks
+- Data cleaning and preprocessing in Python
+- Handling real-world text encoding issues (UTF-8 / mojibake)
+- Robust type conversion and validation
+- Missing-data strategies grounded in domain logic
+- Feature engineering for downstream analysis
+- Built-in QA and auditability for data pipelines
+- Clear separation of working vs final outputs
+- Reproducible analysis using Jupyter Notebooks
 
 
 
@@ -214,6 +213,4 @@ The notebook is designed to run top-to-bottom in a fresh kernel.
 
 
 Cleaning decisions are intentionally explicit rather than hidden, and the two-output approach mirrors professional data curation workflows.
-
-
 

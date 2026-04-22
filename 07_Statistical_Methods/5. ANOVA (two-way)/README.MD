@@ -33,9 +33,7 @@ The goal of this project is to determine:
 
 
 * Whether **education level** affects loan amount
-
 * Whether **home ownership status** affects loan amount
-
 * Whether there is an **interaction effect** between these two variables
 
 
@@ -57,13 +55,9 @@ The dataset contains loan application records with borrower attributes.
 
 
 | Variable                | Description                      |
-
 | ----------------------- | -------------------------------- |
-
 | `person_education`      | Education level of the applicant |
-
 | `person_home_ownership` | Home ownership status            |
-
 | `loan_amount`           | Loan amount requested/approved   |
 
 
@@ -93,9 +87,7 @@ A **two-way ANOVA** was used to test:
 
 
 * Main effect of education
-
 * Main effect of home ownership
-
 * Interaction effect between the two
 
 
@@ -117,11 +109,8 @@ loan_amount ~ person_education * person_home_ownership
 
 
 * `statsmodels` (ANOVA)
-
 * `scipy` (assumption tests)
-
 * `pandas` (data manipulation)
-
 * `matplotlib` (visualization)
 
 
@@ -135,18 +124,13 @@ loan_amount ~ person_education * person_home_ownership
 
 
 1. Load and clean dataset
-
 2. Explore group distributions and summary statistics
-
 3. Fit two-way ANOVA model
-
 4. Check assumptions:
 
+* Normality (Shapiro-Wilk)
 
-
-&#x20;  * Normality (Shapiro-Wilk)
-
-&#x20;  * Homogeneity of variance (Levene’s test)
+* Homogeneity of variance (Levene’s test)
 
 5. Evaluate statistical significance
 
@@ -154,13 +138,11 @@ loan_amount ~ person_education * person_home_ownership
 
 7. Visualize results:
 
+* Interaction plot
 
+* Boxplots
 
-&#x20;  * Interaction plot
-
-&#x20;  * Boxplots
-
-&#x20;  * Main effect plots
+* Main effect plots
 
 8. Generate plain-English interpretation
 
@@ -343,28 +325,6 @@ python your_script.py
 ├── notebook.ipynb
 
 └── README.md
-
-```
-
-
-
----
-
-
-
-## 🔮 Future Improvements
-
-
-
-* Apply minimum group size thresholds
-
-* Use robust ANOVA methods
-
-* Explore additional predictors (income, credit score)
-
-* Build predictive models
-
-
 
 ---
 

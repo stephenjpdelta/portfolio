@@ -23,13 +23,9 @@ Predict **property tax rate (TAX)** based on multiple features including crime r
 
 
 * Python
-
 * pandas
-
 * numpy
-
 * scikit-learn
-
 * matplotlib
 
 
@@ -39,21 +35,13 @@ Predict **property tax rate (TAX)** based on multiple features including crime r
 
 
 | Feature | Description                             |
-
 | ------- | --------------------------------------- |
-
 | CRIM    | Crime rate per town                     |
-
 | INDUS   | Proportion of non-retail business acres |
-
 | NOX     | Nitric oxide concentration              |
-
 | RM      | Average number of rooms                 |
-
 | AGE     | Proportion of older buildings           |
-
 | DIS     | Distance to employment centres          |
-
 | RAD     | Accessibility to highways               |
 
 
@@ -71,17 +59,11 @@ Predict **property tax rate (TAX)** based on multiple features including crime r
 
 
 1. Load and inspect dataset
-
 2. Select multiple input features
-
 3. Split data into training and testing sets
-
 4. Train a Linear Regression model
-
 5. Evaluate model performance
-
 6. Analyse feature coefficients
-
 7. Generate predictions
 
 
@@ -91,11 +73,8 @@ Predict **property tax rate (TAX)** based on multiple features including crime r
 
 
 * Mean Absolute Error (MAE): XX
-
 * Mean Squared Error (MSE): XX
-
 * R² Score: XX
-
 
 
 ## 📊 Model Insights
@@ -107,7 +86,6 @@ Each coefficient represents the impact of a feature on TAX:
 
 
 * Positive coefficient → increases TAX
-
 * Negative coefficient → decreases TAX
 
 
@@ -119,21 +97,13 @@ Each coefficient represents the impact of a feature on TAX:
 ```python
 
 new_data = pd.DataFrame({
-
-&#x20;   'CRIM': [0.10],
-
-&#x20;   'INDUS': [7.50],
-
-&#x20;   'NOX': [0.50],
-
-&#x20;   'RM': [6.20],
-
-&#x20;   'AGE': [65.0],
-
-&#x20;   'DIS': [4.10],
-
-&#x20;   'RAD': [5]
-
+ 'CRIM': [0.10],
+ 'INDUS': [7.50],
+ 'NOX': [0.50],
+ 'RM': [6.20],
+ 'AGE': [65.0],
+ 'DIS': [4.10],
+ 'RAD': [5]
 })
 
 
@@ -142,16 +112,12 @@ prediction = model.predict(new_data)
 
 ```
 
-
-
 ## 📉 Visualisations
 
 
 
 * Actual vs Predicted plot
-
 * Residual analysis
-
 * Feature relationships
 
 
@@ -179,9 +145,7 @@ jupyter notebook
 multiple-regression/
 
 ├── multiple_regression.ipynb
-
 ├── data.csv
-
 └── README.md
 
 ```
@@ -193,10 +157,6 @@ multiple-regression/
 
 
 * Working with multiple features
-
 * Interpreting regression coefficients
-
 * Evaluating model performance
-
 * Understanding multivariate relationships
-

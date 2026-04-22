@@ -27,7 +27,6 @@ To determine whether there are statistically significant differences in mean TB 
 
 
 *Null hypothesis (H₀):* Mean TB prevalence is equal across all regions
-
 *Alternative hypothesis (H₁):* At least one region differs in mean TB prevalence
 
 
@@ -67,13 +66,9 @@ https://www.tableau.com/learn/articles/free-public-data-sets
 
 
 * Loaded dataset from CSV file
-
 * Selected relevant variables
-
 * Renamed long column names for usability
-
 * Filtered data to include only \*\*2013 observations\*\*
-
 * Removed missing values
 
 
@@ -87,7 +82,6 @@ https://www.tableau.com/learn/articles/free-public-data-sets
 
 
 * Generated descriptive statistics by region
-
 * Visualised distributions using boxplots
 
 
@@ -106,18 +100,11 @@ Before applying ANOVA, the following assumptions were tested:
 
 *Normality*
 
-
-
 * Tested using Shapiro–Wilk test within each region *
-
-
 
 *Homogeneity of variance*
 
-
-
 * Tested using Levene’s test
-
 
 
 ---
@@ -181,114 +168,6 @@ The ANOVA test evaluates whether differences in group means are statistically si
 * If p ≥ 0.05 → no evidence of regional differences
 
 
-
----
-
-
-
-## 🛠️ Technologies Used
-
-
-
-* Python
-* pandas
-* matplotlib
-* scipy
-* statsmodels
-
-
-
----
-
-
-
-## ▶️ How to Run
-
-
-
-1. Clone the repository:
-
-
-
-```bash
-
-git clone https://github.com/your-username/anova-tb-prevalence.git
-
-cd anova-tb-prevalence
-
-```
-
-
-
-2. Install dependencies:
-
-
-
-```bash
-
-pip install pandas matplotlib scipy statsmodels
-
-```
-
-
-
-3. Update the dataset path in the script:
-
-
-
-```python
-
-file\_path = r"C:\\Users\\steve\\Documents\\Datasets\\Raw\\TB\_Burden\_Country.csv"
-
-```
-
-
-
-4. Run the script:
-
-
-
-```bash
-
-python ANOVA.py
-
-```
-
-
-
----
-
-
-
-## 📌 Key Learnings
-
-
-
-* How to structure a statistical analysis project
-
-* Practical implementation of one-way ANOVA in Python
-
-* Importance of checking assumptions before hypothesis testing
-
-* Interpretation of statistical outputs and post-hoc tests
-
-
-
----
-
-
-
-## 🚀 Possible Extensions
-
-
-
-* Compare results using *average TB prevalence across years (1990–2013)*
-
-* Perform *two-way ANOVA* including both region and year
-
-* Incorporate additional variables (e.g. income level, healthcare access)
-
-* Visualise trends over time
 
 
 
