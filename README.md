@@ -24,23 +24,7 @@ Focused on transforming raw, inconsistent datasets into analysis-ready data usin
 
 ---
 
-## 02_Time_Series_Analysis
-
-**Forecasting & Trend Analysis**
-
-Time-based data exploration using Python to identify trends, seasonality, and future movement.
-
-**Skills demonstrated:**
-
-- Trend decomposition  
-- Rolling averages  
-- Forecasting methods  
-- Time series visualisation  
-- Business planning insights
-
----
-
-## 03_AHCA_Polling_Analysis
+## 02_AHCA_Polling_Analysis
 
 **Public Opinion & Policy Trends Analysis**
 
@@ -56,7 +40,7 @@ Analysis of polling data related to healthcare policy, using SQL, Python, and da
 
 ---
 
-## 04_Customer_Order_Analysis_With_SQL
+## 03_Customer_Order_Analysis_With_SQL
 
 **Customer Orders & Revenue Analysis**
 
@@ -72,7 +56,7 @@ Relational database project analysing customer orders, product sales, and busine
 
 ---
 
-## 05_Excel_Analytics_Project
+## 04_Excel_Analytics_Project
 
 **Excel Reporting & Operational Analysis**
 
@@ -88,7 +72,7 @@ Practical business reporting project using Excel tools for cleaning, analysis, a
 
 ---
 
-## 06_End_To_End_Business_Case
+## 05_End_To_End_Business_Case
 
 A complete analytics workflow from raw data to business recommendations.
 
@@ -110,7 +94,7 @@ A complete analytics workflow from raw data to business recommendations.
 
 ---
 
-# 07_Statistical_Methods
+# 06_Statistical_Methods
 
 Additional Python-based analytical projects covering statistical modelling techniques such as:
 
