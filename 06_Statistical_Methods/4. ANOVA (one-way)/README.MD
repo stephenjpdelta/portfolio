@@ -99,11 +99,8 @@ Before applying ANOVA, the following assumptions were tested:
 
 
 *Normality*
-
 * Tested using Shapiro–Wilk test within each region *
-
 *Homogeneity of variance*
-
 * Tested using Levene’s test
 
 
@@ -120,7 +117,6 @@ A one-way ANOVA model was fitted:
 
 
 *Dependent variable:* TB prevalence
-
 *Independent variable:* Region
 
 
@@ -138,7 +134,6 @@ The ANOVA test evaluates whether differences in group means are statistically si
 
 
 * Tukey’s Honest Significant Difference (HSD) test was applied
-
 * Identifies which specific regions differ from each other
 
 
@@ -152,9 +147,7 @@ The ANOVA test evaluates whether differences in group means are statistically si
 
 
 * ANOVA produced an F-statistic and p-value
-
 * Statistical significance determined at *α = 0.05*
-
 * Post-hoc analysis provided pairwise comparisons between regions
 
 
@@ -164,7 +157,6 @@ The ANOVA test evaluates whether differences in group means are statistically si
 
 
 * If p < 0.05 → significant regional differences exist
-
 * If p ≥ 0.05 → no evidence of regional differences
 
 

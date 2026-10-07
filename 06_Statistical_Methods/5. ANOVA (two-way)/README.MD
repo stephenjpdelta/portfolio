@@ -11,7 +11,6 @@ The analysis focuses on:
 
 
 * Education level
-
 * Home ownership status
 
 
@@ -127,23 +126,14 @@ loan_amount ~ person_education * person_home_ownership
 2. Explore group distributions and summary statistics
 3. Fit two-way ANOVA model
 4. Check assumptions:
-
 * Normality (Shapiro-Wilk)
-
 * Homogeneity of variance (Levene’s test)
-
 5. Evaluate statistical significance
-
 6. Run Tukey HSD post-hoc tests (if needed)
-
 7. Visualize results:
-
 * Interaction plot
-
 * Boxplots
-
 * Main effect plots
-
 8. Generate plain-English interpretation
 
 
@@ -157,9 +147,7 @@ loan_amount ~ person_education * person_home_ownership
 
 
 * ❌ No significant interaction between education and home ownership
-
 * ✅ One main effect was statistically significant
-
 * ❌ The other main effect was not significant
 
 
@@ -193,7 +181,6 @@ Further investigation showed:
 
 
 * This group contained **very few observations**
-
 * The mean was therefore **unstable and misleading**
 
 
@@ -219,9 +206,7 @@ The project includes:
 
 
 * **Interaction plot** → checks for interaction patterns
-
 * **Boxplots** → show distribution and outliers
-
 * **Main effect plots** → show group mean differences
 
 
@@ -239,9 +224,7 @@ Effect size (η²) was calculated to assess practical significance:
 
 
 * 0.01 → small
-
 * 0.06 → medium
-
 * 0.14 → large
 
 
@@ -255,11 +238,8 @@ Effect size (η²) was calculated to assess practical significance:
 
 
 * Always inspect **group sizes** before interpreting results
-
 * Small sample groups can create **misleading visual patterns**
-
 * ANOVA detects **consistent effects**, not isolated spikes
-
 * Statistical results should guide interpretation—not visuals alone
 
 
@@ -304,37 +284,6 @@ file_path = Path("your_path_here.csv")
 
 python your_script.py
 
-```
-
-
-
----
-
-
-
-## 📂 Project Structure
-
-
-
-```
-
-├── loan_data.csv
-
-├── anova_analysis.py
-
-├── notebook.ipynb
-
-└── README.md
-
----
-
-
-
-## 📌 Notes
-
-
-
-This project emphasizes not just statistical testing, but **critical interpretation of results**, especially when data is unbalanced or sparse.
 
 
 

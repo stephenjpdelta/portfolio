@@ -298,45 +298,5 @@ A heatmap illustrates how personality types align with category indicators (drin
 
 
 
----
-
-
-
-## 📁 File Structure
-
-
-
-```text
-
-portfolio-2025/
-
-├── data/
-
-│   ├── raw/
-
-│   │   └── userprofile.csv
-
-│   └── processed/
-
-│       ├── userprofiles_cleaned.csv
-
-│       ├── userprofiles_mca_matrix.csv
-
-│       ├── row_coordinates.csv
-
-│       ├── column_coordinates.csv
-
-│       ├── eigenvalues_explained_inertia.csv
-
-│       ├── mca_scree_plot.png
-
-│       ├── mca_biplot_dim1_dim2.png
-
-│       ├── mca_clusters_dim1_dim2.png
-
-│       ├── personality_indicator_heatmap.png
-
-│       └── userprofiles_categories.json
-
 
 
